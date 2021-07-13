@@ -4,6 +4,39 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+nav{
+    display: flex;
+    background-color: #562EFF;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-item {
+    display: flex;
+    width: 882px;
+    justify-content: space-between;
+}
+
+.nav-item ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item img{
+    width: 40.42px;
+    height: 51px;
+}
+.nav-link img{
+    width: 51px;
+height: 51px;
+}
+
 main{
     display: flex;
     flex-direction: column;
